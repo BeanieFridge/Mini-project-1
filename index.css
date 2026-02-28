@@ -46,8 +46,15 @@ nav {
     font-style: normal;
 }
 
+#footerNavBar {
+    font-family:"Chakra Petch", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    font-style: normal;
+    margin: 5px;
+}
+
 footer {
     background-color: #b1fcd6bd;
     border-radius: 10px;
-    width: 80%;
 }
