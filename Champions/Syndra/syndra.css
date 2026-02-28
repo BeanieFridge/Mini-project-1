@@ -93,3 +93,12 @@ nav {
     height: 900px;
     margin-bottom: 20px;
 }
+
+
+
+
+footer {
+    background-color:rgba(176, 138, 224, 0.741);
+    border-radius: 10px;
+    width: 80%;
+}
