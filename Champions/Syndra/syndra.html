@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Sean McKenney">
+    <meta name="keywords" content="League of Legends, League, wiki, builds, build, champions, champion, abilities">
+    <meta name="description" content="Wiki and Analytics for LoL Champions, Runes, and Items">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="syndra.css" rel="stylesheet">
+    <title>Syndra Wiki, Builds, and Analytics</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top col-lg-10 mx-auto">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav text-center mx-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Runes</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="/index.html">Champions</a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="#">Items</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="jumbotron col-5 mx-auto row" id="championHeroCard">
+  <h1 class="display-4 text-center mx-2">Syndra</h1>
+  <div class="col-lg-1 text-center mx-auto" id="championRoleHeroCard">
+    <h2>Role</h2>
+    <p>Mid</p>
+  </div>
+  <div class="col-lg-1 text-center mx-auto" id="championPotraitHeroCard">
+    <img src="SyndraSquare.jpg" alt="Square Syndra Champion Icon">
+  </div>
+  <div class="col-lg-1 text-center mx-auto" id="championArchetypeHeroCard">
+    <h2>Archetype</h2>
+    <p>Mage</p>
+  </div>
+</div>
+
+<div class="col-lg-6 mx-auto" id="championInfoSection">
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top mx-auto">
+  <div class="collapse navbar-collapse" id="navbarChampionInfo">
+    <ul class="navbar-nav text-center mx-auto">
+      <li class="nav-item mx-3">
+        <a class="nav-link" href="#">Bio</a>
+      </li>
+      <li class="nav-item active mx-auto">
+        <a class="nav-link" href="syndra.html">Abilities</a>
+      </li>
+      <li class="nav-item mx-auto">
+       <a class="nav-link" href="#">Items</a>
+      </li>
+      <li class="nav-item mx-auto">
+       <a class="nav-link" href="#">Skins</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="row justify-content-evenly" id="championAbilityIcons">
+  <img src="Transcendent.jpg" alt="Icon for Syndra's passive ability, Transcendent" id="transcendentImage" onclick="changeTranscendantText()">
+  <img src="Dark_Sphere.jpg" alt="Icon for Syndra's 'Q' ability, Dark Sphere" id="darkSphereImage" onclick="changeDarkSphereText()">
+  <img src="Force_of_Will.jpg" alt="Icon for Syndra's 'W' ability, Force of Will" id="forceOfWillImage" onclick="changeForceOfWillText()">
+  <img src="Scatter_the_Weak.jpg" alt="Icon for Syndra's 'E' ability, Scatter the Weak" id="scatterTheWeakImage" onclick="changeScatterTheWeakText()">
+  <img src="Unleashed_Power.jpg" alt="Icon for Syndra's 'R' ultimate ability, UnleashedPower" id="unleashedPowerImage" onclick="changeUnleashedPowerText()">
+    <hr class="my-4 col-11">
+  <div id="championAbilitySection">
+    <h2 class="text-center" id="championAbilityName">Transcendent</h2>
+    <p class="text-center" id="championAbilityDescription">
+      Syndra collects up to 120 Splinters of Wrath via damaging enemy champions and gaining levels. Splinters of Wrath enhance Syndra and her abilities. Syndra restores Mana whenever she collects a Splinter from an enemy.<br>
+      At 120 Splinters, Syndra gains 15% Total AP.<br>
+      Syndra can gain Splinters of Wrath from the following methods:<br>
+      Damaging an enemy champion with 2 abilities within 4 seconds grants Splinters<br>
+      Syndra will receive 5 Splinters of Wrath when she levels up<br>
+      Killing a Cannon minion grants 1 Splinter of Wrath</p>
+  </div>
+</div>
+</div>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="syndra.js"></script>
+</body>
+</html>

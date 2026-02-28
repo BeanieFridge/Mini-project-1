@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Sean McKenney">
+    <meta name="keywords" content="League of Legends, League, wiki, builds, build, champions, champion, abilities">
+    <meta name="description" content="Wiki and Analytics for LoL Champions, Runes, and Items">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <title>League of Data</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top col-lg-10 mx-auto">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav text-center mx-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Runes</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Champions</a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link" href="#">Items</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="jumbotron col-5 mx-auto" id="landingPageHeroCard">
+  <h1 class="display-4 text-center">League of Data</h1>
+  <p class="lead text-center">Your Go-to for League of Legends Info, Builds and Analytics</p>
+</div>
+
+<!-- List of champions seperated by role, dictated by author's personal knowledge and league of legends game client-->
+<div class="row justify-content-evenly" id="championLists">
+<ul class="list-group col-1 text-center" id="topLaneList">
+  <li class="list-group-item" id="listHeader">Top</li>
+  <a href="#" class="list-group-item list-group-item-action">Aatrox</a>
+  <a href="#" class="list-group-item list-group-item-action">Ambessa</a>
+  <a href="#" class="list-group-item list-group-item-action">Camille</a>
+  <a href="#" class="list-group-item list-group-item-action">Cho'Gath</a>
+  <a href="#" class="list-group-item list-group-item-action">Darius</a>
+  <a href="#" class="list-group-item list-group-item-action">Dr. Mundo</a>
+  <a href="#" class="list-group-item list-group-item-action">Fiora</a>
+  <a href="#" class="list-group-item list-group-item-action">Gangplank</a>
+  <a href="#" class="list-group-item list-group-item-action">Garen</a>
+  <a href="#" class="list-group-item list-group-item-action">Gnar</a>
+  <a href="#" class="list-group-item list-group-item-action">Gragas</a>
+  <a href="#" class="list-group-item list-group-item-action">Gwen</a>
+  <a href="#" class="list-group-item list-group-item-action">Heimerdinger</a>
+  <a href="#" class="list-group-item list-group-item-action">Illaoi</a>
+  <a href="#" class="list-group-item list-group-item-action">Irelia</a>
+  <a href="#" class="list-group-item list-group-item-action">Jax</a>
+  <a href="#" class="list-group-item list-group-item-action">Jayce</a>
+  <a href="#" class="list-group-item list-group-item-action">Kayle</a>
+  <a href="#" class="list-group-item list-group-item-action">Kennen</a>
+  <a href="#" class="list-group-item list-group-item-action">Kled</a>
+  <a href="#" class="list-group-item list-group-item-action">K'Sante</a>
+  <a href="#" class="list-group-item list-group-item-action">Malphite</a>
+  <a href="#" class="list-group-item list-group-item-action">Mordekaiser</a>
+  <a href="#" class="list-group-item list-group-item-action">Nasus</a>
+  <a href="#" class="list-group-item list-group-item-action">Olaf</a>
+  <a href="#" class="list-group-item list-group-item-action">Ornn</a>
+  <a href="#" class="list-group-item list-group-item-action">Quinn</a>
+  <a href="#" class="list-group-item list-group-item-action">Renekton</a>
+  <a href="#" class="list-group-item list-group-item-action">Riven</a>
+  <a href="#" class="list-group-item list-group-item-action">Rumble</a>
+  <a href="#" class="list-group-item list-group-item-action">Sett</a>
+  <a href="#" class="list-group-item list-group-item-action">Shen</a>
+  <a href="#" class="list-group-item list-group-item-action">Singed</a>
+  <a href="#" class="list-group-item list-group-item-action">Sion</a>
+  <a href="#" class="list-group-item list-group-item-action">Tahm Kench</a>
+  <a href="#" class="list-group-item list-group-item-action">Teemo</a>
+  <a href="#" class="list-group-item list-group-item-action">Tryndamere</a>
+  <a href="#" class="list-group-item list-group-item-action">Urgot</a>
+  <a href="#" class="list-group-item list-group-item-action">Volibear</a>
+  <a href="#" class="list-group-item list-group-item-action">Yorick</a>
+  <a href="#" class="list-group-item list-group-item-action">Zaahen</a>
+</ul>
+
+<ul class="list-group col-1 text-center" id="jungleLaneList">
+  <li class="list-group-item" id="listHeader">Jungle</li>
+  <a href="#" class="list-group-item list-group-item-action">Amumu</a>
+  <a href="#" class="list-group-item list-group-item-action">Bel'Veth</a>
+  <a href="#" class="list-group-item list-group-item-action">Briar</a>
+  <a href="#" class="list-group-item list-group-item-action">Ekko</a>
+  <a href="#" class="list-group-item list-group-item-action">Elise</a>
+  <a href="#" class="list-group-item list-group-item-action">Evelynn</a>
+  <a href="#" class="list-group-item list-group-item-action">Fiddlesticks</a>
+  <a href="#" class="list-group-item list-group-item-action">Graves</a>
+  <a href="#" class="list-group-item list-group-item-action">Hecarim</a>
+  <a href="#" class="list-group-item list-group-item-action">Ivern</a>
+  <a href="#" class="list-group-item list-group-item-action">Jarvan IV</a>
+  <a href="#" class="list-group-item list-group-item-action">Karthus</a>
+  <a href="#" class="list-group-item list-group-item-action">Kayn</a>
+  <a href="#" class="list-group-item list-group-item-action">Kah'Zix</a>
+  <a href="#" class="list-group-item list-group-item-action">Kindred</a>
+  <a href="#" class="list-group-item list-group-item-action">Lee Sin</a>
+  <a href="#" class="list-group-item list-group-item-action">Lillia</a>
+  <a href="#" class="list-group-item list-group-item-action">Master Yi</a>
+  <a href="#" class="list-group-item list-group-item-action">Nidalee</a>
+  <a href="#" class="list-group-item list-group-item-action">Nocturne</a>
+  <a href="#" class="list-group-item list-group-item-action">Nunu & Willump</a>
+  <a href="#" class="list-group-item list-group-item-action">Rammus</a>
+  <a href="#" class="list-group-item list-group-item-action">Rek'Sai</a>
+  <a href="#" class="list-group-item list-group-item-action">Rengar</a>
+  <a href="#" class="list-group-item list-group-item-action">Sejuani</a>
+  <a href="#" class="list-group-item list-group-item-action">Shaco</a>
+  <a href="#" class="list-group-item list-group-item-action">Shyvana</a>
+  <a href="#" class="list-group-item list-group-item-action">Skarner</a>
+  <a href="#" class="list-group-item list-group-item-action">Sylas</a>
+  <a href="#" class="list-group-item list-group-item-action">Udyr</a>
+  <a href="#" class="list-group-item list-group-item-action">Vi</a>
+  <a href="#" class="list-group-item list-group-item-action">Viego</a>
+  <a href="#" class="list-group-item list-group-item-action">Warwick</a>
+  <a href="#" class="list-group-item list-group-item-action">Wukong</a>
+  <a href="#" class="list-group-item list-group-item-action">Xin Xhao</a>
+  <a href="#" class="list-group-item list-group-item-action">Zac</a>
+</ul>
+
+<ul class="list-group col-1 text-center"  id="midLaneList">
+  <li class="list-group-item" id="listHeader">Mid</li>
+  <a href="#" class="list-group-item list-group-item-action">Ahri</a>
+  <a href="#" class="list-group-item list-group-item-action">Akali</a>
+  <a href="#" class="list-group-item list-group-item-action">Akshan</a>
+  <a href="#" class="list-group-item list-group-item-action">Anivia</a>
+  <a href="#" class="list-group-item list-group-item-action">Annie</a>
+  <a href="#" class="list-group-item list-group-item-action">Aurelion Sol</a>
+  <a href="#" class="list-group-item list-group-item-action">Aurora</a>
+  <a href="#" class="list-group-item list-group-item-action">Azir</a>
+  <a href="#" class="list-group-item list-group-item-action">Cassiopeia</a>
+  <a href="#" class="list-group-item list-group-item-action">Diana</a>
+  <a href="#" class="list-group-item list-group-item-action">Fizz</a>
+  <a href="#" class="list-group-item list-group-item-action">Galio</a>
+  <a href="#" class="list-group-item list-group-item-action">Hwei</a>
+  <a href="#" class="list-group-item list-group-item-action">Kassadin</a>
+  <a href="#" class="list-group-item list-group-item-action">Katarina</a>
+  <a href="#" class="list-group-item list-group-item-action">LeBlanc</a>
+  <a href="#" class="list-group-item list-group-item-action">Lissandra</a>
+  <a href="#" class="list-group-item list-group-item-action">Malzahar</a>
+  <a href="#" class="list-group-item list-group-item-action">Mel</a>
+  <a href="#" class="list-group-item list-group-item-action">Naafiri</a>
+  <a href="#" class="list-group-item list-group-item-action">Orianna</a>
+  <a href="#" class="list-group-item list-group-item-action">Qiyana</a>
+  <a href="#" class="list-group-item list-group-item-action">Ryze</a>
+  <a href="/Champions/Syndra/syndra.html" class="list-group-item list-group-item-action">Syndra</a>
+  <a href="#" class="list-group-item list-group-item-action">Taliyah</a>
+  <a href="#" class="list-group-item list-group-item-action">Twisted Fate</a>
+  <a href="#" class="list-group-item list-group-item-action">Veigar</a>
+  <a href="#" class="list-group-item list-group-item-action">Vex</a>
+  <a href="#" class="list-group-item list-group-item-action">Viktor</a>
+  <a href="#" class="list-group-item list-group-item-action">Vladimir</a>
+  <a href="#" class="list-group-item list-group-item-action">Xerath</a>
+  <a href="#" class="list-group-item list-group-item-action">Yasuo</a>
+  <a href="#" class="list-group-item list-group-item-action">Yone</a>
+  <a href="#" class="list-group-item list-group-item-action">Zed</a>
+  <a href="#" class="list-group-item list-group-item-action">Zoe</a>
+</ul>
+
+
+
+<ul class="list-group col-1 text-center"  id="bottomLaneList">
+  <li class="list-group-item" id="listHeader">ADC</li>
+  <a href="#" class="list-group-item list-group-item-action">Aphelios</a>
+  <a href="#" class="list-group-item list-group-item-action">Ashe</a>
+  <a href="#" class="list-group-item list-group-item-action">Caitlyn</a>
+  <a href="#" class="list-group-item list-group-item-action">Corki</a>
+  <a href="#" class="list-group-item list-group-item-action">Draven</a>
+  <a href="#" class="list-group-item list-group-item-action">Ezreal</a>
+  <a href="#" class="list-group-item list-group-item-action">Jhin</a>
+  <a href="#" class="list-group-item list-group-item-action">Jinx</a>
+  <a href="#" class="list-group-item list-group-item-action">Kai'Sa</a>
+  <a href="#" class="list-group-item list-group-item-action">Kalista</a>
+  <a href="#" class="list-group-item list-group-item-action">Kog'Maw</a>
+  <a href="#" class="list-group-item list-group-item-action">Lucian</a>
+  <a href="#" class="list-group-item list-group-item-action">Miss Fortune</a>
+  <a href="#" class="list-group-item list-group-item-action">Nilah</a>
+  <a href="#" class="list-group-item list-group-item-action">Samira</a>
+  <a href="#" class="list-group-item list-group-item-action">Sivir</a>
+  <a href="#" class="list-group-item list-group-item-action">Smolder</a>
+  <a href="#" class="list-group-item list-group-item-action">Tristana</a>
+  <a href="#" class="list-group-item list-group-item-action">Twitch</a>
+  <a href="#" class="list-group-item list-group-item-action">Varus</a>
+  <a href="#" class="list-group-item list-group-item-action">Vayne</a>
+  <a href="#" class="list-group-item list-group-item-action">Xayah</a>
+  <a href="#" class="list-group-item list-group-item-action">Yunara</a>
+  <a href="#" class="list-group-item list-group-item-action">Zeri</a>
+  <a href="#" class="list-group-item list-group-item-action">Ziggs</a>
+</ul>
+
+<ul class="list-group col-1 text-center"  id="supportLaneList">
+  <li class="list-group-item" id="listHeader">Support</li>
+  <a href="#" class="list-group-item list-group-item-action">Alistar</a>
+  <a href="#" class="list-group-item list-group-item-action">Bard</a>
+  <a href="#" class="list-group-item list-group-item-action">Blitzcrank</a>
+  <a href="#" class="list-group-item list-group-item-action">Brand</a>
+  <a href="#" class="list-group-item list-group-item-action">Braum</a>
+  <a href="#" class="list-group-item list-group-item-action">Janna</a>
+  <a href="#" class="list-group-item list-group-item-action">Karma</a>
+  <a href="#" class="list-group-item list-group-item-action">Leona</a>
+  <a href="#" class="list-group-item list-group-item-action">Lulu</a>
+  <a href="#" class="list-group-item list-group-item-action">Lux</a>
+  <a href="#" class="list-group-item list-group-item-action">Maokai</a>
+  <a href="#" class="list-group-item list-group-item-action">Milo</a>
+  <a href="#" class="list-group-item list-group-item-action">Morgana</a>
+  <a href="#" class="list-group-item list-group-item-action">Nami</a>
+  <a href="#" class="list-group-item list-group-item-action">Nautilus</a>
+  <a href="#" class="list-group-item list-group-item-action">Neeko</a>
+  <a href="#" class="list-group-item list-group-item-action">Pantheon</a>
+  <a href="#" class="list-group-item list-group-item-action">Poppy</a>
+  <a href="#" class="list-group-item list-group-item-action">Pyke</a>
+  <a href="#" class="list-group-item list-group-item-action">Rakan</a>
+  <a href="#" class="list-group-item list-group-item-action">Rell</a>
+  <a href="#" class="list-group-item list-group-item-action">Renata Glasc</a>
+  <a href="#" class="list-group-item list-group-item-action">Senna</a>
+  <a href="#" class="list-group-item list-group-item-action">Seraphine</a>
+  <a href="#" class="list-group-item list-group-item-action">Sona</a>
+  <a href="#" class="list-group-item list-group-item-action">Soraka</a>
+  <a href="#" class="list-group-item list-group-item-action">Swain</a>
+  <a href="#" class="list-group-item list-group-item-action">Taric</a>
+  <a href="#" class="list-group-item list-group-item-action">Thresh</a>
+  <a href="#" class="list-group-item list-group-item-action">Vel'Koz</a>
+  <a href="#" class="list-group-item list-group-item-action">Yuumi</a>
+  <a href="#" class="list-group-item list-group-item-action">Zilean</a>
+  <a href="#" class="list-group-item list-group-item-action">Zyra</a>  
+</ul>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

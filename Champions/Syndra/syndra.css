@@ -1,0 +1,87 @@
+body {
+    font-family:"Chakra Petch", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    background-color: rgb(153, 109, 207);
+}
+
+#listHeader{
+    font-family:"Chakra Petch", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+nav {
+    font-family:"Chakra Petch", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    font-style: normal;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 15px;
+    background-color: rgba(176, 138, 224, 0.741);
+}
+
+#championLists{
+    margin: 50px;
+}
+#championPageHeroCard {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#championHeroCard > h1{
+    font-family:"Chakra Petch", sans-serif;
+    font-size: 70px;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 50px;
+}
+
+#championArchetypeHeroCard > h1{
+    font-family:"Chakra Petch", sans-serif;
+    font-size: 68px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#championArchetypeHeroCard > p{
+    font-family:"Chakra Petch", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#championRoleHeroCard > p {
+    font-family:"Chakra Petch", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#championInfoSection{
+    background-color: rgb(235, 218, 255);
+    border-radius: 10px;
+}
+
+#championAbilityIcons > img{
+    width: 7%;
+    border-radius: 10px;
+}
+
+#championAbilityName {
+    font-family:"Chakra Petch", sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 15px;
+}
+
+#championAbilityDescription{
+    font-family:"Chakra Petch", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    font-style: normal;
+}
