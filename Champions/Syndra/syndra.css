@@ -85,3 +85,20 @@ nav {
     font-weight: 500;
     font-style: normal;
 }
+
+/* ABOVE THIS LINE IS GENERAL CSS/MAIN PAGE CSS FOR THE SYNDRA PAGE            BELOW THIS LINE IS CSS FOR THE SKINS CAROUSEL*/
+
+#championSkinCarouselSplashArt {
+    border-radius: 10px;
+    height: 900px;
+    margin-bottom: 20px;
+}
+
+
+
+
+footer {
+    background-color:rgba(176, 138, 224, 0.741);
+    border-radius: 10px;
+    width: 80%;
+}

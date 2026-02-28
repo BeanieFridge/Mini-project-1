@@ -45,3 +45,9 @@ nav {
     font-weight: 500;
     font-style: normal;
 }
+
+footer {
+    background-color: #b1fcd6bd;
+    border-radius: 10px;
+    width: 80%;
+}
