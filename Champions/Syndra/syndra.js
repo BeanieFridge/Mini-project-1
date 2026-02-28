@@ -1,29 +1,3 @@
-// const axios = require('axios/dist/node/axios.cjs')
-
-
-const fetchChampionData = async () => {
-
-    try{
-       const repsonse = await axios.get('syndra.json')
-       console.log(repsonse.data)
-       console.log(repsonse.status)
-
-    }catch(error){
-        console.error('Data fetch error:', error)
-    }
-}
-
-fetchChampionData()
-
-
-
-
-
-
-
-
-
-
 
 function changeTranscendantText(){
     document.getElementById('championAbilityName').innerHTML = 'Transcendant'
