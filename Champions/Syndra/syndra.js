@@ -12,7 +12,7 @@ axios.get('syndra.json').then(response => console.log(response.data))
 
 function changeTranscendantText(){
     document.getElementById('championAbilityName').innerHTML = 'Transcendant'
-    document.getElementById('championAbilityDescription').innerHTML = 'Syndra collects up to 120 Splinters of Wrath via damaging enemy champions and gaining levels. Splinters of Wrath enhance Syndra and her abilities. Syndra restores Mana whenever she collects a Splinter from an enemy.At 120 Splinters, Syndra gains 15% Total AP.Syndra can gain Splinters of Wrath from the following Damaging an enemy champion with 2 abilities within 4 seconds grants SplintersSyndra will receive 5 Splinters of Wrath when she levels upKilling a Cannon minion grants 1 Splinter of Wrath'
+    document.getElementById('championAbilityDescription').innerHTML = 'Syndra collects up to 120 Splinters of Wrath via damaging enemy champions and gaining levels. Splinters of Wrath enhance Syndra and her abilities. Syndra restores Mana whenever she collects a Splinter from an enemy. At 120 Splinters, Syndra gains 15% Total AP. Syndra can gain Splinters of Wrath from the following: Damaging an enemy champion with 2 abilities within 4 seconds grants Splinters. Syndra will receive 5 Splinters of Wrath when she levels up. Killing a Cannon minion grants 1 Splinter of Wrath.'
 }
 
 
