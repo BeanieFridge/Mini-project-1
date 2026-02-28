@@ -1,3 +1,14 @@
+axios.get('syndra.json').then(response => console.log(response.data))
+
+
+
+
+
+
+
+
+
+
 
 function changeTranscendantText(){
     document.getElementById('championAbilityName').innerHTML = 'Transcendant'
