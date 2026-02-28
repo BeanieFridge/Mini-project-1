@@ -65,24 +65,35 @@
   </div>
 </nav>
 
-<div class="row justify-content-evenly" id="championAbilityIcons">
-  <img src="Transcendent.jpg" alt="Icon for Syndra's passive ability, Transcendent" id="transcendentImage" onclick="changeTranscendantText()">
-  <img src="Dark_Sphere.jpg" alt="Icon for Syndra's 'Q' ability, Dark Sphere" id="darkSphereImage" onclick="changeDarkSphereText()">
-  <img src="Force_of_Will.jpg" alt="Icon for Syndra's 'W' ability, Force of Will" id="forceOfWillImage" onclick="changeForceOfWillText()">
-  <img src="Scatter_the_Weak.jpg" alt="Icon for Syndra's 'E' ability, Scatter the Weak" id="scatterTheWeakImage" onclick="changeScatterTheWeakText()">
-  <img src="Unleashed_Power.jpg" alt="Icon for Syndra's 'R' ultimate ability, UnleashedPower" id="unleashedPowerImage" onclick="changeUnleashedPowerText()">
-    <hr class="my-4 col-11">
-  <div id="championAbilitySection">
-    <h2 class="text-center" id="championAbilityName">Transcendent</h2>
-    <p class="text-center" id="championAbilityDescription">
-      Syndra collects up to 120 Splinters of Wrath via damaging enemy champions and gaining levels. Splinters of Wrath enhance Syndra and her abilities. Syndra restores Mana whenever she collects a Splinter from an enemy.<br>
-      At 120 Splinters, Syndra gains 15% Total AP.<br>
-      Syndra can gain Splinters of Wrath from the following methods:<br>
-      Damaging an enemy champion with 2 abilities within 4 seconds grants Splinters<br>
-      Syndra will receive 5 Splinters of Wrath when she levels up<br>
-      Killing a Cannon minion grants 1 Splinter of Wrath</p>
+<div id="championSkinCarousel" class="carousel slide">
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Skin_Splash_Atlantean_Syndra.jpg" class="d-block mx-auto" alt="Atlantean Syndra Skin Splash" id="championSkinCarouselSplashArt">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Atlantean Syndra</h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="Skin_Splash_Justicar_Syndra.jpg" class="d-block mx-auto" alt="Justicar Syndra Skin Splash" id="championSkinCarouselSplashArt">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Justicar Syndra</h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="Skin_Splash_Snow_Day_Syndra.jpg" class="d-block mx-auto" alt="Snow Day Syndra Skin Splash" id="championSkinCarouselSplashArt">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Snow Day Syndra</h5> 
+      </div>
+    </div>
   </div>
-</div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#championSkinCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#championSkinCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
 
 
@@ -90,6 +101,5 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 <script src="syndra.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </body>
 </html>
